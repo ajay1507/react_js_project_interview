@@ -1,0 +1,41 @@
+body {
+    /* background-color: lightblue; */
+    background-image: url('/public/asset/paper.gif');
+    background-position: right top;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    border: 2px solid red;
+    border-radius: 5px;
+    margin: 25px 50px 75px 100px;
+    padding: 25px 50px 75px 100px;
+}
+/* a {
+    color: hotpink;
+  } */
+
+  a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
